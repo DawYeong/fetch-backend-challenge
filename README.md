@@ -60,7 +60,7 @@ The server is currently configured to be on http://localhost:4000.
 
 Request payload is a JSON object of the following form:
 
-```JSON
+```
 {
     "retailers": string,
     "purchaseDate": "[year]-[month]-[day]",
@@ -91,7 +91,7 @@ Example:
 
 A successful request returns a JSON object of the following form:
 
-```JSON
+```
 {
     "id": string
 }
@@ -118,7 +118,7 @@ Example:
 
 A successful request returns a JSON object of the following form:
 
-```JSON
+```
 {
     "points": number
 }
